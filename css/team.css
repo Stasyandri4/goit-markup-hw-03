@@ -1,5 +1,7 @@
 .team-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list {
@@ -7,12 +9,21 @@
   flex-wrap: wrap;
   column-gap: 24px;
   margin-top: 72px;
-  margin-bottom: 120px;
+}
+
+.wrapper {
+  padding: 32px 16px;
 }
 
 .team-member {
   background-color: #ffffff;
-  flex-basis: calc((100% - 0) / 3);
+  flex-basis: calc((100% - 72px) / 4);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.team-member-image {
+  display: block;
 }
 
 .team-member-name {
@@ -20,7 +31,6 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  padding-top: 32px;
   padding-bottom: 8px;
 }
 
@@ -29,11 +39,9 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 1.111;
-  margin: 120px auto 72px;
-}
-
-.team-member-role {
-  padding-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
 
 .team-heading,

@@ -1,6 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  width: 1440px
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   line-height: 1.5;
@@ -11,7 +10,13 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -31,6 +36,8 @@ ol {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sr-only {
@@ -46,11 +53,10 @@ ol {
   margin: -1px;
 }
 
-
 .logo,
 .footer .logo {
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
