@@ -1,0 +1,19 @@
+.portfolio-heading {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.111;
+}
+
+.portfolio-project-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.portfolio-heading,
+.portfolio-project-name {
+  letter-spacing: 0.02em;
+}

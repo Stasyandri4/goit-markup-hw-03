@@ -1,0 +1,26 @@
+.main-hero {
+  background-color: #2e2f42;
+}
+
+.main-hero-heading {
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.071;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
