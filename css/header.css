@@ -1,5 +1,15 @@
-.header .logo {
+.nav-menu,
+.address-menu {
+  display: inline-flex;
+  gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.logo {
   color: #2e2f42;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .nav-link {

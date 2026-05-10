@@ -1,3 +1,7 @@
+.hero-container {
+  flex-direction: column;
+}
+
 .main-hero {
   background-color: #2e2f42;
 }
@@ -9,6 +13,9 @@
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  padding-bottom: 48px;
+  margin-top: 188px;
 }
 
 .hero-button {
@@ -18,6 +25,13 @@
   font-weight: 500;
   line-height: inherit;
   letter-spacing: 0.04em;
+  padding: 0 0; /* Can move to common */
+  border: none; /* Also */
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  margin-bottom: 188px;
+  justify-content: center;
 }
 
 .hero-button:hover,

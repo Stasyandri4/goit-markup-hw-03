@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  width: 1440px
   color: #434455;
   background-color: #ffffff;
   line-height: 1.5;
@@ -10,12 +11,44 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  padding: 0px;
+  margin: 0;
 }
 
-.logo {
+.container {
+  display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+
+.logo,
+.footer .logo {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -23,6 +56,7 @@ ol {
   line-height: 1.33;
   letter-spacing: 0.03em;
   color: #f4f4fd;
+  margin: 0;
 }
 
 .accent {
