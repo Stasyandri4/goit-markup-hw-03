@@ -1,3 +1,11 @@
+.header {
+  border: 1px solid #e7e9fc;
+}
+
+.nav-menu {
+  margin-right: 340px;
+}
+
 .nav-menu,
 .address-menu {
   display: inline-flex;
@@ -8,8 +16,7 @@
 
 .logo {
   color: #2e2f42;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin: 24px 76px 24px 0;
 }
 
 .nav-link {

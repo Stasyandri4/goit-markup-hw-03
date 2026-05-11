@@ -5,6 +5,8 @@
 
 .main-hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-hero-heading {
@@ -16,7 +18,6 @@
   letter-spacing: 0.02em;
   max-width: 496px;
   padding-bottom: 48px;
-  padding-top: 188px;
 }
 
 .hero-button {
@@ -31,7 +32,6 @@
   border-radius: 4px;
   padding: 16px 32px;
   justify-content: center;
-  margin-bottom: 188px;
 }
 
 .hero-button:hover,

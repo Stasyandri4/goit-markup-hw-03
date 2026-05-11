@@ -19,5 +19,5 @@
 }
 
 .feature-list-item {
-  flex-basis: calc((100% - 72px) / 3);
+  flex-basis: calc((100% - 72px) / 4);
 }
